@@ -13,30 +13,33 @@ A complete, ready-to-use setup that turns VS Code into an AI Agent Editor simila
 
 ## Quick Start
 
+### 1. Clone & Setup
 ```bash
-# 1. Clone this repository
 git clone <repository-url>
 cd ai-editor
-
-# 2. Install VS Code (if not already installed)
-# Download from: https://code.visualstudio.com/
-
-# 3. Install Cline Extension
-# Search "Cline" in VS Code Extensions (Ctrl+Shift+X)
-
-# 4. Get OpenRouter API Key
-# Sign up at: https://openrouter.ai
-
-# 5. Configure Cline
-# Set API Provider: OpenRouter
-# Add your API key
-# Select model: anthropic/claude-3.5-sonnet
-
-# 6. Open project in VS Code
 code .
-
-# 7. Start coding with AI assistance!
 ```
+
+### 2. Install Cline Extension
+- Open VS Code Extensions (Ctrl+Shift+X)
+- Search for "Cline" 
+- Install the extension by saoudrizwan
+
+### 3. Get OpenRouter API Key
+- Sign up at [OpenRouter](https://openrouter.ai)
+- Create API key
+- Choose your model (see [Free Models](https://openrouter.ai/models?max_price=0&order=context-high-to-low&q=free))
+
+### 4. Configure Cline
+- Click Cline icon in VS Code sidebar
+- Set API Provider: OpenRouter
+- Add your API key
+- Select model (e.g., `google/gemini-2.0-flash-exp:free`)
+
+### 5. Start Coding!
+- Use `/memory-bank` to initialize project context
+- Chat with AI to write code, fix bugs, refactor
+- Enjoy 85-95% cost savings vs Cursor Pro!
 
 ## Stack
 
