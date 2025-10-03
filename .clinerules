@@ -1,0 +1,40 @@
+# Project Rules
+
+## Project Overview
+This is a ready-to-use setup for AI-powered code editing using VS Code + Cline + OpenRouter.
+
+## Code Style
+- Use clear, readable code
+- Add comments for complex logic
+- Follow language-specific conventions
+- Keep functions small and focused
+
+## Testing
+- Write tests for new features
+- Test edge cases and error conditions
+- Keep tests up to date with code changes
+- Use descriptive test names
+
+## Documentation
+- Update README for major changes
+- Document API endpoints and functions
+- Keep code comments current and helpful
+- Write clear commit messages
+
+## File Organization
+- Keep related files together
+- Use meaningful file and folder names
+- Separate configuration from code
+- Maintain clean project structure
+
+## AI Assistant Guidelines
+- Always explain what code does
+- Suggest improvements when appropriate
+- Ask clarifying questions when requirements are unclear
+- Provide working, tested code examples
+
+## Memory Bank Usage
+- Use /memory-bank to update project context
+- Keep activeContext.md current with recent changes
+- Update progress.md after major milestones
+- Document important decisions in systemPatterns.md

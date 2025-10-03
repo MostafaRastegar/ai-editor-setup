@@ -1,0 +1,28 @@
+{
+  // VS Code Settings
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/objects/**": true,
+    "**/__pycache__/**": true,
+    "**/venv/**": true,
+    "**/.clinerules": false
+  },
+
+  "search.exclude": {
+    "**/node_modules": true
+  },
+
+  // Performance
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+
+  // Editor
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+
+  // Cline Memory Bank
+  "files.associations": {
+    ".clinerules": "markdown"
+  }
+}
